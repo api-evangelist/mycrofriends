@@ -1,8 +1,30 @@
 aid: mycrofriends
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mycrofriends.png
 name: MycroFriends
-description: MycroFriends is a company surfaced as a portfolio company of bloomberg-beta and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  MycroFriends is a consumer health and wellness company that helps people
+  become healthier through education and coaching centered on the connection
+  between the human microbiome, nutrition, and overall health. Founded by George
+  Cigale (previously founder of the online tutoring company Tutor.com) and
+  headquartered in New York City, the company launched via a 2017 crowdfunding
+  campaign and works with scientists, physicians, dietitians, and technologists
+  to deliver microbiome education, personalized nutritional and lifestyle
+  guidance, and access to expert health coaches. It was surfaced in the API
+  Evangelist network as a portfolio company of Bloomberg Beta. As of this
+  enrichment pass MycroFriends publishes no public API, developer portal, SDK,
+  or machine-readable API surface, and its former website resolves only to a
+  default (unconfigured) Azure App Service host.
 url: https://raw.githubusercontent.com/api-evangelist/mycrofriends/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +34,23 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Health
+- Nutrition
+- Microbiome
+- Wellness
+- Education
+- Coaching
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
